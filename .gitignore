@@ -1,1 +1,7 @@
 /deploy
+/.hyde_deps
+*~
+/nohyde/DrewRaines.html
+/nohyde/DrewRaines.pdf
+/nohyde/DrewRaines.txt
+/nohyde/DrewRaines.tex
