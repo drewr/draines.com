@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta name="author" content="{{ author.name }}">
+<title>{{ resource.meta.title }} | {{ site_title }}</title>
+{% block webfonts %}{% endblock %}
+<link rel="stylesheet" rev="stylesheet" href="{{ media_url('css/bootstrap-1.4.0.css') }}" type="text/css">
+<link rel="stylesheet" rev="stylesheet" href="{{ media_url('css/screen.css') }}" type="text/css">
+</head>
+<body>
+{% block body %}{% endblock %}
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("{{ ganalytics.id}}");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+</body>
+</html>
+

@@ -1,0 +1,77 @@
+body {
+  padding-top:60px;
+}
+
+h1,h2,h3,h4 {
+  font-family:"Helvetica Neue", Arial, Sans-Serif;
+}
+
+.maincopy p {
+  font-family:"Times New Roman", Serif;
+  font-size:1.4em;
+  line-height:1.5;
+}
+
+.topbar {
+  font-family:"Helvetica Neue", Arial, Sans-Serif;
+  text-transform:uppercase;
+}
+
+.topbar .brand {
+  font-weight:900;
+  padding-top:12px;
+  font-size:1.7em;
+  font-family:'Press Start 2P';
+}
+
+.topbar .nav a {
+  padding-top:15px;
+  font-family: 'Squada One', cursive;
+  font-size:1.5em;
+}
+
+.social a {
+  display:block;
+  float:left;
+  height:50px;
+  width:50px;
+  margin-left:20px;
+}
+
+.tabs a {
+  color:darkgrey;
+}
+
+.home-hero {
+  font-family:'Frijole', cursive;
+  font-size:120px;
+  color:#111;
+}
+
+.home-footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background:#111;
+  border-top:1px solid #aaa;
+  padding:0 0 10px 0;
+  color:white;
+  text-transform:uppercase;
+  font-family: 'Squada One', cursive;
+  font-size:16px;
+}
+
+.home-footer a {
+  color:white;
+}
+
+.home-footer a:hover {
+  color:lightblue;
+}
+
+.home-footer > .wrapper {
+  width:200px;
+  margin:auto;
+}

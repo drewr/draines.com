@@ -1,0 +1,53 @@
+{% extends "base.j2" %}
+
+{% block webfonts %}
+<link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+{% endblock %}
+
+{% block body %}
+
+<div class="topbar">
+<div class="fill">
+<div class="container">
+  <a class="brand" href="/">{{ site_title }}</a>
+  <ul class="nav">
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/projects.html">Projects</a></li>
+  </ul>
+</div>
+</div>
+</div>
+
+<div class="container" id="top">
+{% block container %}
+
+<div class="content maincopy">
+{% block content %}
+<div class="row">
+<div class="span11">
+{% filter markdown|typogrify %}
+{% block main %}
+{% endblock %}
+{% endfilter %}
+</div>
+<div class="span5">
+{% filter markdown|typogrify %}
+{% block sidebar %}
+&nbsp;
+{% endblock %}
+{% endfilter %}
+</div>
+</div>
+{% endblock %}
+</div>
+<footer>
+{% block footer %}
+<p>Created by <a href="{{ author.url }}">{{ author.name }}</a>
+with <a href="https://github.com/hyde/hyde">Hyde.</a></p>
+{% endblock footer %}
+</footer>
+{% endblock container %}
+</div> <!-- /container -->
+
+{% endblock body %}
