@@ -49,6 +49,15 @@ h1,h2,h3,h4 {
   text-shadow:0.05em 0.05em #888
 }
 
+.home-hero a {
+  color:#111;
+}
+
+.home-hero a:hover {
+  text-decoration:none;
+  color:lightblue;
+}
+
 .home-footer {
   position:fixed;
   left:0px;
