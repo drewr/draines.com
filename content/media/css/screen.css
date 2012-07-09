@@ -46,6 +46,7 @@ h1,h2,h3,h4 {
   font-family:'Frijole', cursive;
   font-size:120px;
   color:#111;
+  text-shadow:0.05em 0.05em #888
 }
 
 .home-footer {
