@@ -1,4 +1,4 @@
 image: archlinux
 tasks:
 - first: |
-    cat .test-secret
+    cat draines.com/.test-secret
