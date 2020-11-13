@@ -1,0 +1,4 @@
+image: archlinux
+tasks:
+- first: |
+    cat .test-secret
