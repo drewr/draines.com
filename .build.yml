@@ -1,6 +1,6 @@
 image: archlinux
 secrets:
-- "f8e2f2ba-b91f-4dcd-98f4-40ee2a6df6404"
+- f8e2f2ba-b91f-4dcd-98f4-40ee2a6df640
 tasks:
 - first: |
     cat draines.com/.test-secret
